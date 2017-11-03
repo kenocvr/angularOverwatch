@@ -1,7 +1,7 @@
 # TODO
 
-(1) Routes / Navigation
-Right now nothing displays when I add routing (no errors either)
+(1) Finish adding character abilities and stats
+(2) Import Character images / vignettes
 
 # OverwatchApp
 
