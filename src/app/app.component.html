@@ -1,9 +1,8 @@
 <ul class="heroes">
   <!-- onSelect calls the method. Passes in character as parameter
    keep the hero detail out of the DOM until there is a selected hero.-->
-      <li *ngFor="let character of characters" (click) = "onSelect(character)">
+      <li *ngFor="let character of characters"  (click) = "onSelect(character)">
         <img src="{{character.image}}">
-
         <br>
         {{character.name}}
       </li>
@@ -12,7 +11,14 @@
       <h2>
         Stats for {{selectedCharacter.name}}:
         <br>
-        {{selectedCharacter.abilities}}
-      </h2>
+        <ul>
+          <li *ngFor="let item of selectedCharacter.abilities" >
+            {{item.abName}}
+            <br>
+            {{item.description}}
+          </li>
+        </ul>
 
+
+      </h2>
     </div>
