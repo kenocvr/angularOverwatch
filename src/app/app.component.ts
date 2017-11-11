@@ -19,6 +19,8 @@ function characterCreate(name, type, abilities, damage, image) {
   this.damage = damage;
   this.image = image;
 }
+
+
 let mercy = new characterCreate('Mercy', 'Healer','heal','99', 'https://i.pinimg.com/474x/a5/02/4e/a5024e9bef07692573fa67b7e8834586--overwatch-mercy-character-names.jpg');
 
 const CHARACTERS: Character[] = [
@@ -91,6 +93,7 @@ export class AppComponent {
   characters = CHARACTERS;
 
 
+  
   selectedCharacter: Character;
 
 
