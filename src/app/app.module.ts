@@ -7,6 +7,8 @@ import { RouterModule } from '@angular/router';
 import { DetailComponent } from './components/detail/detail.component';
 import { CharactersComponent } from './components/characters/characters.component';
 
+import {HttpClientModule} from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +17,7 @@ import { CharactersComponent } from './components/characters/characters.componen
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     HttpModule,
     RouterModule.forRoot([
         {

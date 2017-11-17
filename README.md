@@ -1,7 +1,8 @@
 # TODO
 
-(1) Finish adding character abilities and stats
-(2) Import Character images / vignettes
+(1) Add HttpClientModule
+(2) Point to API: https://overwatch-api.net/docs/v1
+
 
 # OverwatchApp
 
