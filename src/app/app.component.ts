@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
 
 
-// Overwatch character type is the character class
-// Winston is a tank class. So we call it tank type
-// to avoid confusion with TS class nomenclature
+
 export class Character {
   name: string;
   type: string;  // type: tank, healer, dps, etc
